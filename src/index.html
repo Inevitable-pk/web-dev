@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rodion-gate</title>
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Geist+Mono:wght@100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="font-parkinsans">
+    <div class="h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
+        <nav class="w-full fixed top-0 p-2 bg-white text-black z-10">
+            <div class="container mx-auto p-4 flex items-end justify-between">
+                <div class="flex w-25 h-5 font-bold font-parkinsons text-2xl">RODION GATE</div>
+                <ul class="hidden md:flex items-end justify-between gap-4 font-bold">
+                    <li class="hover:text-stone-200">
+                        <a href="#">Homepage</a>
+                    </li>
+                    <li class="hover:text-stone-200">
+                        <a href="#">Learnings</a>
+                    </li>
+                    <li class="hover:text-stone-200">
+                        <a href="#">About me</a>
+                    </li>
+                    <li class="hover:text-stone-200">
+                        <a href="#">Contact me</a>
+                    </li>
+                </ul>
+                    <img src="code-img/crescent-moon.png" class="cursor-pointer" alt="moon img">
+                    <div id="sweety" class="space-y-1 md:hidden cursor-pointer z-20">
+                        <div class="w-6 h-0.5 bg-slate-950"></div>
+                        <div class="w-6 h-0.5 bg-slate-950"></div>
+                        <div class="w-6 h-0.5 bg-slate-950"></div>
+                    </div>
+                    <ul id="menu" class="hidden bg-gray-600 text-white absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-center font-bold">
+                        <li>
+                            <a href="#">Homepage</a>
+                        </li>
+                        <li>
+                            <a href="#">Learnings</a>
+                        </li>
+                        <li>
+                            <a href="#">About me</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact me</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+        <div>
+            <img class="fixed inset-0 m-auto h-5/6 object-contain" src="code-img/welcome.png" alt="welcome image">
+        </div>
+        <div class="absolute -bottom-1/4 right-0 left-0 mx-auto lg:w-big lg:h-big w-[343px] h-[744px] sm:w-[430px] sm:h-[770px] md:w-[530px] md:h-[765px]  bg-indigo-400 rounded-full -z-10"></div>          
+        <div class="absolute top-1/3 left-5">
+            <span class="text-gray-600 text-2xl font-bold">Priyanshu</span>
+            <p class="text-red-500">Developer</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
